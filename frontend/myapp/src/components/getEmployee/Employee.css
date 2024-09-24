@@ -1,0 +1,98 @@
+.empTable {
+    width: 80%;
+    background-color:  #e1b382;
+    box-shadow: 1px 1px 8px #2d545e;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.backbtn, .addbtn {
+    background-color: #12343b;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.backbtn:hover, .addbtn:hover {
+    background-color: #2d545e;
+}
+
+.addbtn, .backbtn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addbtn:hover {
+    box-shadow: 1px 1px 8px rgb(95, 92, 81);
+}
+
+.empTable table {
+    background-color: white;
+    width: 100%;
+}
+
+.empTable table thead th {
+    background-color: #12343b;
+    color: white;
+    padding: 10px;
+}
+
+.empTable table tbody td {
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.actionbtn button {
+    background-color: #12343b;
+    border: 1;
+    width: 100%;
+    color: white;
+    outline: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    gap: 5px;
+    margin-top: 2px;
+}
+
+.e {
+    background-color: green;
+}
+
+.d {
+    background-color: red;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px; /* Space below the search input */
+}
+
+.searchInput {
+    width: 30%; /* Adjust the width as needed */
+    padding: 10px;
+    border: 1px solid slategray;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.searchInput:focus {
+    border-color: darkslateblue;
+}
